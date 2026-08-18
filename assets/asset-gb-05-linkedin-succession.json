@@ -1,0 +1,28 @@
+{
+  "approvals": [
+    {
+      "reviewer": "AUTOMATED-NOT-A-HUMAN",
+      "role": "marketing"
+    },
+    {
+      "reviewer": "AUTOMATED-NOT-A-HUMAN",
+      "role": "expert"
+    },
+    {
+      "reviewer": "AUTOMATED-NOT-A-HUMAN",
+      "role": "compliance"
+    }
+  ],
+  "asset_id": "asset-gb-05-linkedin-succession",
+  "channel": "blog",
+  "claims": 3,
+  "harness": "claude-cli",
+  "published_on": "2026-08-17",
+  "synthetic": true,
+  "tier": "T3",
+  "title": "Succession structures are usually reviewed at a crisis, not on a schedule",
+  "type": "linkedin_post",
+  "unsourced": 1,
+  "url": "assets/asset-gb-05-linkedin-succession.html",
+  "words": 224
+}

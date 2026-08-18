@@ -1,0 +1,28 @@
+{
+  "approvals": [
+    {
+      "reviewer": "AUTOMATED-NOT-A-HUMAN",
+      "role": "marketing"
+    },
+    {
+      "reviewer": "AUTOMATED-NOT-A-HUMAN",
+      "role": "expert"
+    },
+    {
+      "reviewer": "AUTOMATED-NOT-A-HUMAN",
+      "role": "compliance"
+    }
+  ],
+  "asset_id": "asset-gb-01-foundation-council",
+  "channel": "blog",
+  "claims": 9,
+  "harness": "claude-cli",
+  "published_on": "2026-08-17",
+  "synthetic": true,
+  "tier": "T3",
+  "title": "What a Foundation Council Is Bound By",
+  "type": "blog",
+  "unsourced": 2,
+  "url": "assets/asset-gb-01-foundation-council.html",
+  "words": 1052
+}

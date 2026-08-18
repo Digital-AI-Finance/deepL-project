@@ -1,0 +1,28 @@
+{
+  "approvals": [
+    {
+      "reviewer": "AUTOMATED-NOT-A-HUMAN",
+      "role": "marketing"
+    },
+    {
+      "reviewer": "AUTOMATED-NOT-A-HUMAN",
+      "role": "expert"
+    },
+    {
+      "reviewer": "AUTOMATED-NOT-A-HUMAN",
+      "role": "compliance"
+    }
+  ],
+  "asset_id": "asset-gb-07-what-we-do-not-do",
+  "channel": "blog",
+  "claims": 14,
+  "harness": "claude-cli",
+  "published_on": "2026-08-17",
+  "synthetic": true,
+  "tier": "T3",
+  "title": "The Limits of a Fiduciary's Role Before a Sale",
+  "type": "blog",
+  "unsourced": 3,
+  "url": "assets/asset-gb-07-what-we-do-not-do.html",
+  "words": 1071
+}

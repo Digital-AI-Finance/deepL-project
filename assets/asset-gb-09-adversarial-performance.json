@@ -1,0 +1,28 @@
+{
+  "approvals": [
+    {
+      "reviewer": "AUTOMATED-NOT-A-HUMAN",
+      "role": "marketing"
+    },
+    {
+      "reviewer": "AUTOMATED-NOT-A-HUMAN",
+      "role": "expert"
+    },
+    {
+      "reviewer": "AUTOMATED-NOT-A-HUMAN",
+      "role": "compliance"
+    }
+  ],
+  "asset_id": "asset-gb-09-adversarial-performance",
+  "channel": "blog",
+  "claims": 19,
+  "harness": "claude-cli",
+  "published_on": "2026-08-17",
+  "synthetic": true,
+  "tier": "T3",
+  "title": "Trusts, foundations, and why the order of the work matters more than the vehicle",
+  "type": "blog",
+  "unsourced": 7,
+  "url": "assets/asset-gb-09-adversarial-performance.html",
+  "words": 1068
+}

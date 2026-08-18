@@ -1,0 +1,28 @@
+{
+  "approvals": [
+    {
+      "reviewer": "AUTOMATED-NOT-A-HUMAN",
+      "role": "marketing"
+    },
+    {
+      "reviewer": "AUTOMATED-NOT-A-HUMAN",
+      "role": "expert"
+    },
+    {
+      "reviewer": "AUTOMATED-NOT-A-HUMAN",
+      "role": "compliance"
+    }
+  ],
+  "asset_id": "asset-gb-02-trust-vs-foundation",
+  "channel": "blog",
+  "claims": 22,
+  "harness": "claude-cli",
+  "published_on": "2026-08-17",
+  "synthetic": true,
+  "tier": "T3",
+  "title": "Trust or foundation: where the discretion sits, and what happens when the family disagrees",
+  "type": "blog",
+  "unsourced": 13,
+  "url": "assets/asset-gb-02-trust-vs-foundation.html",
+  "words": 1002
+}

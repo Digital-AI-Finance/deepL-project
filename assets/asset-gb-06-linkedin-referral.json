@@ -1,0 +1,28 @@
+{
+  "approvals": [
+    {
+      "reviewer": "AUTOMATED-NOT-A-HUMAN",
+      "role": "marketing"
+    },
+    {
+      "reviewer": "AUTOMATED-NOT-A-HUMAN",
+      "role": "expert"
+    },
+    {
+      "reviewer": "AUTOMATED-NOT-A-HUMAN",
+      "role": "compliance"
+    }
+  ],
+  "asset_id": "asset-gb-06-linkedin-referral",
+  "channel": "blog",
+  "claims": 5,
+  "harness": "claude-cli",
+  "published_on": "2026-08-17",
+  "synthetic": true,
+  "tier": "T3",
+  "title": "What happens to your client relationship after you refer a matter to us",
+  "type": "linkedin_post",
+  "unsourced": 2,
+  "url": "assets/asset-gb-06-linkedin-referral.html",
+  "words": 198
+}

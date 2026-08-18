@@ -1,0 +1,28 @@
+{
+  "approvals": [
+    {
+      "reviewer": "AUTOMATED-NOT-A-HUMAN",
+      "role": "marketing"
+    },
+    {
+      "reviewer": "AUTOMATED-NOT-A-HUMAN",
+      "role": "expert"
+    },
+    {
+      "reviewer": "AUTOMATED-NOT-A-HUMAN",
+      "role": "compliance"
+    }
+  ],
+  "asset_id": "asset-gb-08-aeoi-reality",
+  "channel": "blog",
+  "claims": 17,
+  "harness": "claude-cli",
+  "published_on": "2026-08-17",
+  "synthetic": true,
+  "tier": "T3",
+  "title": "Automatic exchange of information and the structure your family already has",
+  "type": "blog",
+  "unsourced": 8,
+  "url": "assets/asset-gb-08-aeoi-reality.html",
+  "words": 1027
+}

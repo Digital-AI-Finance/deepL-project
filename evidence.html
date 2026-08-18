@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="FICTIONAL. Northwind Fiduciary AG does not exist. This page was written by an AI agent in a research prototype. It is not advice of any kind, it describes no real firm, and no statement in it should be relied on.">
+<title>Evidence | Synthetic content factory prototype</title>
+<style>
+:root { --ink:#1a1a1a; --muted:#5c5c5c; --line:#d8d4cc; --bg:#faf9f7;
+        --warn-bg:#fff4e0; --warn-line:#e0a838; --ok:#1f6f3f; --bad:#a02020; }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--ink);
+       font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; }
+.wrap { max-width:820px; margin:0 auto; padding:0 20px 80px; }
+.banner { background:var(--warn-bg); border-bottom:2px solid var(--warn-line);
+          padding:12px 20px; font-size:14px; }
+.banner b { letter-spacing:.04em; }
+nav { border-bottom:1px solid var(--line); margin-bottom:32px; }
+nav .wrap { padding-top:14px; padding-bottom:14px; }
+nav a { margin-right:18px; text-decoration:none; color:var(--muted); font-size:14px; }
+nav a:hover, nav a.here { color:var(--ink); }
+h1 { font-size:28px; line-height:1.25; margin:28px 0 6px; }
+h2 { font-size:20px; margin:36px 0 8px; border-bottom:1px solid var(--line); padding-bottom:6px; }
+h3 { font-size:16px; margin:24px 0 6px; }
+.lede { color:var(--muted); margin:0 0 24px; }
+table { border-collapse:collapse; width:100%; margin:16px 0; font-size:14px; }
+th, td { text-align:left; padding:7px 10px; border-bottom:1px solid var(--line);
+         vertical-align:top; }
+th { font-weight:600; white-space:nowrap; }
+td.num, th.num { text-align:right; font-variant-numeric:tabular-nums; }
+code, .mono { font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-size:13px; }
+.pass { color:var(--ok); font-weight:600; }
+.fail { color:var(--bad); font-weight:600; }
+.na { color:var(--muted); }
+.note { border-left:3px solid var(--line); padding:2px 0 2px 14px; color:var(--muted);
+        margin:16px 0; font-size:14px; }
+.card { border:1px solid var(--line); border-radius:6px; padding:14px 18px; margin:12px 0;
+        background:#fff; }
+.card h3 { margin-top:0; }
+.meta { color:var(--muted); font-size:13px; }
+footer { margin-top:56px; padding-top:16px; border-top:1px solid var(--line);
+         color:var(--muted); font-size:13px; }
+.claim { border-left:3px solid var(--line); padding-left:12px; margin:10px 0; font-size:14px; }
+.claim.unsourced { border-left-color:var(--warn-line); }
+.claim.expired, .claim.unknown_id { border-left-color:var(--bad); }
+.tag { display:inline-block; padding:1px 7px; border-radius:10px; font-size:12px;
+       border:1px solid var(--line); color:var(--muted); }
+</style>
+</head>
+<body>
+<div class="banner"><b>SYNTHETIC OUTPUT.</b> FICTIONAL. Northwind Fiduciary AG does not exist. This page was written by an AI agent in a research prototype. It is not advice of any kind, it describes no real firm, and no statement in it should be relied on.</div>
+<nav><div class="wrap">
+<a href="index.html">Overview</a>
+<a href="evidence.html" class="here">Evidence</a>
+<a href="findings.html">What the agent did</a>
+<a href="throughput.html">Approval chain</a>
+<a href="assets/index.html">Published assets</a>
+<a href="mapping.html">Platform mapping</a>
+</div></nav>
+<div class="wrap">
+<h1>Evidence</h1>
+<p class="lede">Everything below is read from a committed file. The point of a pipeline like this is not that it produces content; it is that it can show how, and be checked.</p>
+<h2>Verification</h2>
+<table><thead><tr><th>Check</th><th>Result</th><th>Detail</th></tr></thead><tbody><tr><td>counts_monotonic</td><td><span class="pass">pass</span></td><td>no count fell below its high-water mark</td></tr><tr><td>fixture_integrity</td><td><span class="pass">pass</span></td><td>30 fixtures match the manifest</td></tr><tr><td>gate_matrix</td><td><span class="pass">pass</span></td><td>1 gates, each refusing its decoy and passing its control</td></tr><tr><td>inventory</td><td><span class="pass">pass</span></td><td>agent_contracts=7, agents_implemented=1, controls=2, decoys=2, gates=1, golden_briefs=12</td></tr><tr><td>ledger_chain</td><td><span class="pass">pass</span></td><td>9 records, chain intact, head 1086a897d17a</td></tr><tr><td>ledger_tamper</td><td><span class="pass">pass</span></td><td>5 tamper scenarios behaved as documented</td></tr><tr><td>no_dormant_checks</td><td><span class="pass">pass</span></td><td>no previously active check went dormant</td></tr><tr><td>pytest</td><td><span class="pass">pass</span></td><td>251 tests passed, none skipped</td></tr><tr><td>rubric_leakage</td><td><span class="na">na</span></td><td>judge rubric not present yet</td></tr><tr><td>style_derivation</td><td><span class="na">na</span></td><td>corpus statistics or derived rules not present yet</td></tr></tbody></table>
+<p class="note">Overall: <span class="pass">passing</span>. The suite makes zero live model calls by design, which is why it can run in continuous integration with no credentials at all.</p>
+<h2>Gates, and the decoys that prove they work</h2>
+<p>A gate tested only against content it refuses is satisfied by a gate that refuses everything, which would be a disaster in a content pipeline and would look green. So every gate ships two fixtures: a <strong>decoy</strong> it must refuse, and a <strong>control</strong> it must pass.</p>
+<table><thead><tr><th>Fixture</th><th>compliance.return_promise</th></tr></thead><tbody><tr><td>compliance.return_promise__clean_explainer.json</td><td><span class="pass">passes</span></td></tr><tr><td>compliance.return_promise__explicit_yield.json</td><td><span class="fail">REFUSED</span></td></tr><tr><td>compliance.return_promise__negated_guarantee.json</td><td><span class="pass">passes</span></td></tr><tr><td>compliance.return_promise__negation_inside_span.json</td><td><span class="fail">REFUSED</span></td></tr></tbody></table>
+<p class="note">The pair worth understanding: one decoy reads <em>&ldquo;We guarantee no year in which returns fall below inflation&rdquo;</em> and must be refused. Its control reads <em>&ldquo;Returns are not guaranteed&rdquo;</em> and must pass. Both contain the same two trigger words. A gate that simply looked for them together would block the sentences a regulated firm is required to write.</p>
+<h2>Audit trail</h2>
+<p>108 state transitions, hash-chained. Verifier says <span class="pass">chain intact</span>. Head <code>772ac99a9127d02e2711848b</code>.</p>
+<p>Altering a record invalidates its own hash. Recomputing that hash to cover the alteration invalidates the next record's <code>prev_hash</code>, and so on to the end. It is tamper-<em>evident</em>, not tamper-proof, and the difference matters: anyone who can rewrite the whole file still can.</p>
+<p class="note">A committed decoy proves this rather than asserting it. Four scenarios are caught, including one where the tamperer recomputes the hash of the record they edited. A fifth is <em>not</em> caught and is asserted as a known limitation: rewriting the <em>last</em> record is invisible to the chain, because nothing follows it to disagree.</p>
+<footer>
+Generated by <code>tools/build_site.py</code> from committed artefacts. Every number on
+this site is read from a file in the repository; none is typed by hand.<br>
+Source commit <code>aab8121</code>.
+</footer>
+</div>
+</body>
+</html>

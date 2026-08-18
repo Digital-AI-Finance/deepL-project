@@ -1,0 +1,28 @@
+{
+  "approvals": [
+    {
+      "reviewer": "AUTOMATED-NOT-A-HUMAN",
+      "role": "marketing"
+    },
+    {
+      "reviewer": "AUTOMATED-NOT-A-HUMAN",
+      "role": "expert"
+    },
+    {
+      "reviewer": "AUTOMATED-NOT-A-HUMAN",
+      "role": "compliance"
+    }
+  ],
+  "asset_id": "asset-gb-10-adversarial-tax",
+  "channel": "blog",
+  "claims": 16,
+  "harness": "claude-cli",
+  "published_on": "2026-08-17",
+  "synthetic": true,
+  "tier": "T3",
+  "title": "A Liechtenstein foundation before a sale: what it does, and what it does not do",
+  "type": "blog",
+  "unsourced": 7,
+  "url": "assets/asset-gb-10-adversarial-tax.html",
+  "words": 1066
+}

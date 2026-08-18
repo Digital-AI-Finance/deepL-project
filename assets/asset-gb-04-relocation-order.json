@@ -1,0 +1,28 @@
+{
+  "approvals": [
+    {
+      "reviewer": "AUTOMATED-NOT-A-HUMAN",
+      "role": "marketing"
+    },
+    {
+      "reviewer": "AUTOMATED-NOT-A-HUMAN",
+      "role": "expert"
+    },
+    {
+      "reviewer": "AUTOMATED-NOT-A-HUMAN",
+      "role": "compliance"
+    }
+  ],
+  "asset_id": "asset-gb-04-relocation-order",
+  "channel": "blog",
+  "claims": 18,
+  "harness": "claude-cli",
+  "published_on": "2026-08-17",
+  "synthetic": true,
+  "tier": "T3",
+  "title": "Relocating to Liechtenstein: the order in which things have to happen",
+  "type": "blog",
+  "unsourced": 12,
+  "url": "assets/asset-gb-04-relocation-order.html",
+  "words": 1024
+}
